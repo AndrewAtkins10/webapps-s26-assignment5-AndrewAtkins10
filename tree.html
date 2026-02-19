@@ -136,6 +136,28 @@
       <strong>Explanation:</strong> In Bootstrap's grid system, <code>md</code> (medium) triggers the vertical stack at <strong>768px</strong>, whereas <code>sm</code> (small) waits until the screen is narrower than <strong>576px</strong>. Because 768 is larger than 576, the tree names will collapse into a vertical stack while the letters are still sitting side-by-side in a horizontal row.
     </p>
   </div>
+  <div class="mt-5 mb-5 p-4 bg-light border rounded">
+    <h3>Part 9: Tree Newsletter Sign-up</h3>
+    <form>
+      <div class="mb-3">
+        <label for="userEmail" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+
+      <div class="mb-3">
+        <label for="treeChoice" class="form-label">TREE</label>
+        <input type="text" class="form-control" id="treeChoice" placeholder="Enter your tree">
+      </div>
+
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="newsletterCheck">
+        <label class="form-check-label" for="newsletterCheck">Sign up for newsletter?</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
 </div>
 
 
